@@ -242,3 +242,13 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+fixtures = [
+  {"dt": "SDG Goal"},
+  {"dt": "SDG Target"},
+  {"dt": "SDG Indicator"},
+  {"dt": "Sustainability Metric"},
+  {"dt": "Sustainability Entry"},
+  {"dt": "ESG Criterion"},
+  {"dt": "GRI Standard"}
+]
