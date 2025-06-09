@@ -1,12 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:goal_no",
  "creation": "2025-05-14 09:33:57.320119",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "goal_no",
   "goal_name",
-  "description"
+  "description",
+  "amended_from"
  ],
  "fields": [
   {
@@ -20,18 +23,36 @@
    "fieldname": "description",
    "fieldtype": "Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "goal_no",
+   "fieldtype": "Data",
+   "label": "Goal No",
+   "unique": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SDG Goal",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-14 09:35:09.746435",
+ "modified": "2025-06-05 12:03:51.474875",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "SDG Goal",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
+   "create": 1,
    "email": 1,
    "export": 1,
    "print": 1,
