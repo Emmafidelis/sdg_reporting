@@ -1,43 +1,44 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:target_no",
  "creation": "2025-05-14 09:37:52.640890",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "sdg_goal",
-  "target_code",
+  "goal_no",
+  "target_no",
   "description"
  ],
  "fields": [
   {
-   "fieldname": "sdg_goal",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "SDG Goal",
-   "options": "SDG Goal",
-   "reqd": 1
-  },
-  {
-   "fieldname": "target_code",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Target Code",
-   "reqd": 1
-  },
-  {
    "fieldname": "description",
    "fieldtype": "Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "goal_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Goal No",
+   "options": "SDG Goal"
+  },
+  {
+   "fieldname": "target_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Target No",
+   "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-14 09:40:07.532797",
+ "modified": "2025-06-04 22:49:14.630703",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "SDG Target",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
