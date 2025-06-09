@@ -1,41 +1,44 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:criteria",
  "creation": "2025-05-16 17:38:54.011499",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "criterion",
-  "category",
+  "factor",
+  "criteria",
   "description"
  ],
  "fields": [
   {
-   "fieldname": "criterion",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Criterion",
-   "reqd": 1
-  },
-  {
-   "fieldname": "category",
-   "fieldtype": "Select",
-   "label": "Category",
-   "options": "\nEnvironmental\nSocial\nGovernance"
-  },
-  {
    "fieldname": "description",
    "fieldtype": "Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "factor",
+   "fieldtype": "Select",
+   "label": "Key ESG Factor",
+   "options": "\nEnvironmental\nSocial\nGovernance"
+  },
+  {
+   "fieldname": "criteria",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ESG Criteria",
+   "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2025-05-16 17:40:55.734818",
+ "modified": "2025-06-04 23:00:21.009654",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "ESG Criterion",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
