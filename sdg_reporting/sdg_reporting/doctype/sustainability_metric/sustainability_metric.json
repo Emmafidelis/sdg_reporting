@@ -1,39 +1,24 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:metric_name",
  "creation": "2025-05-14 09:43:54.065347",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "linked_indicator",
-  "esg_criterion",
-  "gri_standard",
-  "data_source",
+  "metric_name",
+  "esg_pillar",
+  "gri_disclosure",
+  "sdg_link",
+  "sdg_target",
   "column_break_hlgl",
-  "reporting_frequency",
+  "measures",
   "unit"
  ],
  "fields": [
   {
-   "fieldname": "linked_indicator",
-   "fieldtype": "Link",
-   "label": "Linked SDG Indicator",
-   "options": "SDG Indicator"
-  },
-  {
-   "fieldname": "data_source",
-   "fieldtype": "Data",
-   "label": "Data Source"
-  },
-  {
    "fieldname": "column_break_hlgl",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "reporting_frequency",
-   "fieldtype": "Select",
-   "label": "Reporting Frequency",
-   "options": "Monthly\nQuarterly\nAnnually"
   },
   {
    "fieldname": "unit",
@@ -41,25 +26,50 @@
    "label": "Unit"
   },
   {
-   "fieldname": "esg_criterion",
+   "fieldname": "metric_name",
+   "fieldtype": "Data",
+   "label": "Metric Name",
+   "options": "SDG Indicator",
+   "unique": 1
+  },
+  {
+   "fieldname": "esg_pillar",
    "fieldtype": "Link",
-   "label": "ESG Criterion",
+   "label": "ESG Pillar",
    "options": "ESG Criterion"
   },
   {
-   "fieldname": "gri_standard",
+   "fieldname": "gri_disclosure",
    "fieldtype": "Link",
-   "label": "GRI Standard",
+   "label": "GRI Disclosure",
    "options": "GRI Standard"
+  },
+  {
+   "fieldname": "sdg_link",
+   "fieldtype": "Link",
+   "label": "SDG Link",
+   "options": "SDG Goal"
+  },
+  {
+   "fieldname": "sdg_target",
+   "fieldtype": "Link",
+   "label": "SDG Target",
+   "options": "SDG Target"
+  },
+  {
+   "fieldname": "measures",
+   "fieldtype": "Data",
+   "label": "Measures"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-16 17:51:32.201576",
+ "modified": "2025-06-21 12:06:23.194426",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "Sustainability Metric",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
