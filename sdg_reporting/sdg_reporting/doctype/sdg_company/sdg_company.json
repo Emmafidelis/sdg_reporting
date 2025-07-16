@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:company",
+ "creation": "2025-07-16 22:16:15.590366",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "no_of_employees",
+  "sector",
+  "location",
+  "column_break_xvrp",
+  "organization_type",
+  "legal_structure",
+  "section_break_wtfp",
+  "operational_footprint"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company",
+   "unique": 1
+  },
+  {
+   "fieldname": "no_of_employees",
+   "fieldtype": "Int",
+   "label": "Number Of Employees"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Data",
+   "label": "Sector"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Headquarters"
+  },
+  {
+   "fieldname": "column_break_xvrp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "organization_type",
+   "fieldtype": "Select",
+   "label": "Organization Type",
+   "options": "\nPublic\nPrivate\nNGO"
+  },
+  {
+   "fieldname": "legal_structure",
+   "fieldtype": "Data",
+   "label": "Legal Structure"
+  },
+  {
+   "fieldname": "operational_footprint",
+   "fieldtype": "Table",
+   "label": "Operational Footprint",
+   "options": "Operational Footprint Entry"
+  },
+  {
+   "fieldname": "section_break_wtfp",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-16 22:59:18.074882",
+ "modified_by": "Administrator",
+ "module": "Sdg Reporting",
+ "name": "SDG Company",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
