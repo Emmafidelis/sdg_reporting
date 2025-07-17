@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-17 11:43:55.986840",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "reporting_cycle",
+  "first_reporting_year",
+  "notes",
+  "reporting_standards"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "SDG Company"
+  },
+  {
+   "fieldname": "reporting_cycle",
+   "fieldtype": "Select",
+   "label": "Reporting Cycle",
+   "options": "\nAnnual\nBi-annual\nQuarterly"
+  },
+  {
+   "fieldname": "first_reporting_year",
+   "fieldtype": "Int",
+   "label": "First Reporting Year"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Additional Notes"
+  },
+  {
+   "fieldname": "reporting_standards",
+   "fieldtype": "Table",
+   "label": "Reporting Standards",
+   "options": "Reporting Standard Entry"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-17 11:53:40.330695",
+ "modified_by": "Administrator",
+ "module": "Sdg Reporting",
+ "name": "ESG Reporting Framework",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
