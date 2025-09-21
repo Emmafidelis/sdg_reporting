@@ -1,0 +1,40 @@
+{
+ "chart_name": "SDG Progress Tracking",
+ "chart_type": "Report",
+ "creation": "2025-09-20 18:09:15.639870",
+ "currency": "",
+ "custom_options": "{\"x_field\": \"metric\", \"chart_type\": \"Line\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"y_field\": \"q1\", \"name\": \"row 1\"}, {\"idx\": 2, \"__islocal\": true, \"y_field\": \"q2\", \"name\": \"row 2\"}, {\"idx\": 3, \"__islocal\": true, \"y_field\": \"change_percent\", \"name\": \"row 3\"}], \"y_fields\": [\"q1\", \"q2\", \"change_percent\"], \"colors\": [null, null, null]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-09-20 18:13:30.835533",
+ "modified_by": "Administrator",
+ "module": "Sdg Reporting",
+ "name": "SDG Progress Tracking",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "SDG Progress Tracking",
+ "roles": [],
+ "show_values_over_chart": 1,
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Line",
+ "use_report_chart": 0,
+ "x_field": "metric",
+ "y_axis": [
+  {
+   "y_field": "q1"
+  },
+  {
+   "y_field": "q2"
+  },
+  {
+   "y_field": "change_percent"
+  }
+ ]
+}
