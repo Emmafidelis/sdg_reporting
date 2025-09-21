@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:standard_code",
+ "autoname": "field:disclosure",
  "creation": "2025-05-16 17:45:51.427999",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -16,13 +16,13 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Standard Code",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "disclosure",
    "fieldtype": "Data",
-   "label": "Disclosure"
+   "label": "Disclosure",
+   "unique": 1
   },
   {
    "fieldname": "location",
@@ -33,7 +33,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-17 11:27:38.133294",
+ "modified": "2025-09-20 17:42:25.231881",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "GRI Standard",

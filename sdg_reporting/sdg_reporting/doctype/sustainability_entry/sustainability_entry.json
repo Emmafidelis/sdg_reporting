@@ -1,10 +1,12 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2025-05-14 09:49:33.344976",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "title",
   "metric",
   "reporting_period",
   "value",
@@ -43,15 +45,22 @@
    "fieldname": "evidence_file",
    "fieldtype": "Attach",
    "label": "Evidence File"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-14 09:55:12.100042",
+ "modified": "2025-09-18 12:57:15.602482",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "Sustainability Entry",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

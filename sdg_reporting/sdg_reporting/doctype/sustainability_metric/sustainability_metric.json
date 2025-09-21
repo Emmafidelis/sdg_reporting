@@ -13,7 +13,9 @@
   "sdg_target",
   "column_break_hlgl",
   "measures",
-  "unit"
+  "unit",
+  "q1",
+  "q2"
  ],
  "fields": [
   {
@@ -60,12 +62,22 @@
    "fieldname": "measures",
    "fieldtype": "Data",
    "label": "Measures"
+  },
+  {
+   "fieldname": "q1",
+   "fieldtype": "Data",
+   "label": "Q1"
+  },
+  {
+   "fieldname": "q2",
+   "fieldtype": "Data",
+   "label": "Q2"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-21 12:06:23.194426",
+ "modified": "2025-09-17 12:47:55.145617",
  "modified_by": "Administrator",
  "module": "Sdg Reporting",
  "name": "Sustainability Metric",
