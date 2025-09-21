@@ -1,0 +1,33 @@
+{
+ "cards": [
+  {
+   "card": "SDG Mapping"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "SDG Metric Mapping",
+   "width": "Full"
+  },
+  {
+   "chart": "SDG Progress Tracking",
+   "width": "Half"
+  },
+  {
+   "chart": "SDG Goal Distribution",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-09-17 15:45:09.077197",
+ "dashboard_name": "SDG Reporting Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-09-20 18:47:59.268243",
+ "modified_by": "Administrator",
+ "module": "Sdg Reporting",
+ "name": "SDG Reporting Dashboard",
+ "owner": "Administrator"
+}
