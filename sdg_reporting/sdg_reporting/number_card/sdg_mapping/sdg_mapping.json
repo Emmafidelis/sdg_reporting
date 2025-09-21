@@ -1,0 +1,23 @@
+{
+ "creation": "2025-09-20 18:47:59.199777",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "SDG Mapping",
+ "modified": "2025-09-20 18:48:43.486853",
+ "modified_by": "Administrator",
+ "module": "Sdg Reporting",
+ "name": "SDG Mapping",
+ "owner": "Administrator",
+ "report_field": "metric_count",
+ "report_function": "Sum",
+ "report_name": "SDG Metrics Mapping",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}
