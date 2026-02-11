@@ -82,7 +82,7 @@ app_license = "mit"
 # Installation
 # ------------
 
-# before_install = "sdg_reporting.install.before_install"
+before_install = "sdg_reporting.install.before_install"
 # after_install = "sdg_reporting.install.after_install"
 
 # Uninstallation
